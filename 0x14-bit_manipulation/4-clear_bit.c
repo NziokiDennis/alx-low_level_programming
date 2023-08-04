@@ -10,12 +10,7 @@
  * @n: Pointer to the number whose bit needs to be cleared.
  * @index: Index of the bit to clear (0-indexed).
  *
- * Return: 1 if the bit was successfully cleared, -1 if an error occurred.
- *
- * Example usage:
- * unsigned long number = 42; // 101010
- * int result = clear_bit(&number, 1); // Clears the second bit (index 1).
- * // After the call, number becomes 40 (101000), and result is 1.
+ * Return: 1 if the bit was successfully cleared, -1 if an error occur.
  *
  * Note: This function assumes that the number @n is represented using at least the
  * number of bits required to store an unsigned long on the target platform.
